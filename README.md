@@ -62,9 +62,23 @@ Edit whatever appears in your editor, replace 'pick' with 'squash'. At least one
 
     git rebase -i HEAD~(number of commits) ex: git rebase -i HEAD~4
 
-
 #### Resetting Author Name
     git commit --amend --author <author name> ex: 'Ricky Hurtado and Ace Subido <dev+ricky+ace@aelogica.com>'
+
+#### Rebase the Local Branch Using the Master Branch
+First, update the master
+
+    git pull origin master
+
+Second, checkout to your local branch and do rebase
+
+    git checkout <local branch>
+    git rebase master
+
+#### Compare and Add Files for Commit
+Make sure to double check the changes done before committing. As much as possible, commit related files.
+
+    git add -p
 
 ## Server Monitoring
     ssh <username>
