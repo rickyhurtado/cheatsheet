@@ -58,6 +58,10 @@ If push fails, do the first two commands
 #### Show Commit Log
 
     git log < --pretty >
+    
+#### Review Stage Files
+
+    git diff --cached
 
 #### Revert File Version
     git checkout <version_number> <path_to_file>
@@ -122,8 +126,6 @@ then press
 then press
 
     :wq
-  
-***
     
 ## Links
 
