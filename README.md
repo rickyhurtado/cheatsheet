@@ -127,3 +127,5 @@ then press
 <http://blog.aelogica.com/tutorial/yadr-yet-another-dotfile-repo/>  
 <https://github.com/skwp/dotfiles>  
 <https://github.com/seattlerb/minitest>  
+<http://mattsears.com/articles/2011/12/10/minitest-quick-reference>  
+<http://www.littlelines.com/blog/2013/12/17/a-guide-for-writing-maintainable-rails-tests/>  
