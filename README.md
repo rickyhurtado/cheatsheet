@@ -25,6 +25,7 @@
 
 #### Fetch, Merge Remote and Local Branches, and Push
 If push fails, do the first two commands
+
     git fetch --all
     git merge --no-ff <remote_alias>/<local_branch> <local_branch> *good practice*
     git push <remote_name> <local_branch> 
@@ -53,6 +54,10 @@ If push fails, do the first two commands
     git stash pop (apply and delete stash)
     git stash drop
     git stash clear
+
+#### Show Commit Log
+
+    git log < --pretty >
 
 #### Revert File Version
     git checkout <version_number> <path_to_file>
@@ -94,9 +99,7 @@ Running the redis server
 ## Resque and Scheduler
 Run resque
 
-    rake environment resque:work QUEUE=* (* for all or specify the value Ex. high)
-    --trace (add this - optional)
-    VERBOSE-1 (add this - optional)
+    rake environment resque:work QUEUE=* (* for all or specify the value Ex. high) < VERBOSE-1 > < --trace >
 
 Run scheduler
 
@@ -124,8 +127,14 @@ then press
     
 ## Links
 
+#### YADR
 <http://blog.aelogica.com/tutorial/yadr-yet-another-dotfile-repo/>  
 <https://github.com/skwp/dotfiles>  
+
+#### MiniTest
 <https://github.com/seattlerb/minitest>  
 <http://mattsears.com/articles/2011/12/10/minitest-quick-reference>  
 <http://www.littlelines.com/blog/2013/12/17/a-guide-for-writing-maintainable-rails-tests/>  
+
+#### MacVim
+<http://vim-adventures.com/>  
