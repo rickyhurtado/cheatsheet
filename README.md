@@ -119,3 +119,11 @@ then press
 then press
 
     :wq
+  
+***
+    
+## Links
+
+<http://blog.aelogica.com/tutorial/yadr-yet-another-dotfile-repo/>  
+<https://github.com/skwp/dotfiles>  
+<https://github.com/seattlerb/minitest>  
