@@ -127,6 +127,18 @@ then press
 
     :wq
     
+#### Kill Running Rails Services
+
+    lsof -wni
+
+or with filter
+
+    lsof -wni tcp
+
+and filter with specific port
+
+    lsof -wni tcp:3000
+    
 ## Links
 
 #### YADR
