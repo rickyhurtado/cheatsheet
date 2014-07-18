@@ -58,7 +58,7 @@ If push fails, do the first two commands
 #### Show Commit Log
 
     git log < --pretty >
-    
+
 #### Review Stage Files
 
     git diff --cached
@@ -108,7 +108,7 @@ Run resque
 Run scheduler
 
     rake environment resque:scheduler QUEUE=high (or * for all - same as above)
-    
+
 ## Unix
 
 #### Copy SSH Public Key
@@ -126,17 +126,59 @@ then press
 then press
 
     :wq
-    
+
+# VIM with YADR Commands
+
+Show Directory Tree
+
+    :NERDTree
+
+Show the GIT Commits History
+
+    :Gblame
+
+Find Files
+
+    ,T
+
+Find in Files
+
+    ,GG
+
+Search in Current File
+
+    /
+
+Search Next
+
+    CTRL+N
+
+Copy to Clipboard
+
+    Shift+V (then use HJKL keys to highlight text), Shift+", Shift+*, Y
+
+Paste from Clipboard
+
+    I, CMD+V
+
+Paste from Copied Highlighted Text (external file)
+
+    :set paste
+
+Then Turn Off Set Paste
+
+    :set nopaste
+
 ## Links
 
 #### YADR
-<http://blog.aelogica.com/tutorial/yadr-yet-another-dotfile-repo/>  
-<https://github.com/skwp/dotfiles>  
+<http://blog.aelogica.com/tutorial/yadr-yet-another-dotfile-repo/>
+<https://github.com/skwp/dotfiles>
 
 #### MiniTest
-<https://github.com/seattlerb/minitest>  
-<http://mattsears.com/articles/2011/12/10/minitest-quick-reference>  
-<http://www.littlelines.com/blog/2013/12/17/a-guide-for-writing-maintainable-rails-tests/>  
+<https://github.com/seattlerb/minitest>
+<http://mattsears.com/articles/2011/12/10/minitest-quick-reference>
+<http://www.littlelines.com/blog/2013/12/17/a-guide-for-writing-maintainable-rails-tests/>
 
 #### MacVim
-<http://vim-adventures.com/>  
+<http://vim-adventures.com/>
