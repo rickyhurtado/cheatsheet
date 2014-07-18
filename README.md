@@ -139,45 +139,46 @@ and filter with specific port
 
     lsof -wni tcp:3000
 
-#### VIM with YADR Commands
+## VIM with YADR Commands
 
-Show Directory Tree
+#### Show Directory Tree
 
     :NERDTree
 
-Show the GIT Commits History
+#### Show the GIT Commits History
 
     :Gblame
 
-Find Files
+#### Find Files
 
     ,T
 
-Find in Files
+#### Find in Files
 
     ,GG
 
-Search in Current File
+#### Search in Current File
 
     /
 
-Search Next
+#### Search Next
 
     CTRL+N
 
-Copy to Clipboard
+#### Copy to Clipboard
+Use HJKL keys to highlight the text
 
-    Shift+V (then use HJKL keys to highlight text), Shift+", Shift+*, Y
+    Shift+V, Shift+", Shift+*, Y
 
-Paste from Clipboard
+#### Paste from Clipboard
 
     I, CMD+V
 
-Paste from Copied Highlighted Text (external file)
+#### Paste from Copied Highlighted Text (external file)
 
     :set paste
 
-Then Turn Off Set Paste
+Then turn of paste
 
     :set nopaste
 
