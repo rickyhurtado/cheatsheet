@@ -127,7 +127,19 @@ then press
 
     :wq
 
-# VIM with YADR Commands
+#### Kill Running Rails Services
+
+    lsof -wni
+
+or with filter
+
+    lsof -wni tcp
+
+and filter with specific port
+
+    lsof -wni tcp:3000
+
+#### VIM with YADR Commands
 
 Show Directory Tree
 
