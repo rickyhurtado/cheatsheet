@@ -139,6 +139,10 @@ and filter with specific port
 
     lsof -wni tcp:3000
 
+#### Quick Command
+
+    git pull origin master && bundle && RAILS_ENV=production bundle exec rake db:migrate assets:precompile && ps -ef | grep unicorn
+
 ## VIM with YADR Commands
 
 #### Show Directory Tree
