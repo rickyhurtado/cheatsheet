@@ -139,6 +139,10 @@ and filter with specific port
 
     lsof -wni tcp:3000
 
+#### Display All Dirs in Tree
+
+    ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'
+
 #### Quick Command
 
     git pull origin master && bundle && RAILS_ENV=production bundle exec rake db:migrate assets:precompile && ps -ef | grep unicorn
@@ -148,6 +152,30 @@ and filter with specific port
 #### Show Directory Tree
 
     :NERDTree
+
+#### Divide Selected Screen Horizontally
+
+    SS
+
+#### Divide Selected Screen Vertically
+
+    VV
+
+#### Move Cursor At The End
+
+    Shift+$
+
+#### Move Cursor At The Beginning
+
+    Shift+^
+
+#### Move Cursor At The Top
+
+    GG
+
+#### Move Cursor At The Bottom
+
+    Shift+G
 
 #### Show the GIT Commits History
 
@@ -169,6 +197,10 @@ and filter with specific port
 
     CTRL+N
 
+#### Search and Replace
+
+    :%s/find text/text as replacement/g
+
 #### Copy to Clipboard
 Use HJKL keys to highlight the text
 
@@ -182,9 +214,26 @@ Use HJKL keys to highlight the text
 
     :set paste
 
-Then turn of paste
+Then turn off paste
 
     :set nopaste
+
+#### Hide and Show Line Numbers
+
+    :set nonumber
+    :set number
+
+#### Jump To Specific Line Number
+
+    :line_number
+
+#### Highlight and Replace Text (same column)
+
+    :CTRL+V
+    (use HJKL to highlight text)
+    press small 'C'
+    type the text as replacement
+    ESC
 
 ## Links
 
