@@ -235,6 +235,14 @@ Then turn off paste
     type the text as replacement
     ESC
 
+#### Move Cursor to the Next Pane
+
+    CTRL+WW
+
+#### Comment Out Highlighted Code Line(s)
+
+    gcc
+
 ## Links
 
 #### YADR
