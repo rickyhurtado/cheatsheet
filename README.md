@@ -243,6 +243,14 @@ Then turn off paste
 
     gcc
 
+#### Place the cursor on specific character
+
+    Example string [STRING] [string]
+    press small 'F' key then the character
+    (With the example above considering the cursor is on the 'E' of 'Example string...', if I press small 'F' then '[', the cursor jumps to the first '[' but if I press 2 then small 'F' then '[', the cursor jumps to the second '['. Therefore, pressing number key first tells the position of the selected character. Pressing 'Shift+F', cursor jumps backwards.)
+
+    press small 'F' key then the character then followed by ';', cursor finds the next position of the charcter
+
 ## Links
 
 #### YADR
